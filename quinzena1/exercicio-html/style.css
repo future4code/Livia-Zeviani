@@ -6,8 +6,10 @@ body{
   
   
   .header {
-    background-color: #eb97f7;
-    height: 30px;
+
+    background-color:#d595dd;
+    height: 20px;
+
     width: 100%;
     margin: 0;
     text-align: center;
@@ -15,6 +17,98 @@ body{
     padding-bottom: 20px;  
   } 
   
+
+  
+  a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 3%;
+    }
+  
+  
+  .main {
+    width: 100%;
+    text-align:center;
+    padding-top: 5%;
+    color: #1f222e;
+  }
+
+  h1{
+      color:#1f222e;
+  }
+
+  p{
+      color:#1f222e;
+      font-size: 18px;
+  }
+
+  img{
+      padding: 3%;
+  }
+  
+  tr{
+    padding:2%;
+    margin-left:10px;
+    margin-right:10px;
+  }
+
+  table{
+    width: 50%;
+    margin: auto;
+  }
+
+  th{
+    padding: 5px;
+  }
+
+  h2{
+    color: #1f222e;
+  }
+  
+  .footer {
+  
+    background-color: #d595dd;
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    color: #ffffff;
+  }
+  
+  
+  
+  .title {
+    margin: 60px 0;
+  }
+  
+  h2 {
+    color:#1f222e;
+  }
+
+
+  input{
+      margin-top: 6px;
+      margin-bottom:6px;
+      margin-left:auto;
+      margin-right: auto;
+      display: block;
+      width: 40%;
+      
+  }
+
+  button{
+    background-color: #D2A7FA;
+    border: 1px solid transparent;
+    padding: 2px 20px;
+   border-radius: 3px;
+   margin-bottom: 10px;
+  }
+=======
   table{
     padding:3%;
     margin: auto;
@@ -80,3 +174,4 @@ body{
   }
   
     
+
