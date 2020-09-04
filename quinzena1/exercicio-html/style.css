@@ -6,8 +6,10 @@ body{
   
   
   .header {
+
     background-color:#d595dd;
     height: 20px;
+
     width: 100%;
     margin: 0;
     text-align: center;
@@ -15,6 +17,7 @@ body{
     padding-bottom: 20px;  
   } 
   
+
   
   a {
       color: #ffffff;
@@ -105,3 +108,70 @@ body{
    border-radius: 3px;
    margin-bottom: 10px;
   }
+=======
+  table{
+    padding:3%;
+    margin: auto;
+  }
+
+ th{
+   padding: 5px;
+ }
+
+ td{
+   text-align: center;
+   padding: 5px;
+ }
+  a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 2%;
+      
+    }
+
+  p{
+      text-align: center;
+      color: #e64fac;
+  }  
+
+  h1, h2{
+      color: rgba(56, 51, 51, 0.867);
+      text-align: center;
+      padding: 10px;
+  }
+
+  input{
+    padding: 5px;
+    margin: 10px;
+    display: inline;
+    
+  }
+
+  form{
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    
+  }
+
+  button{
+    background-color:  #77c9d8;
+    border: 1px solid transparent;
+    padding: 2px 20px;
+   border-radius: 3px;
+  }
+
+  .footer{
+    background-color: #eb97f7;
+    height: 30px;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+  }
+  
+    
+
