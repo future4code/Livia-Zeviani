@@ -1,0 +1,56 @@
+*{
+    margin: auto;
+    padding: auto;
+    background: #c43c4c;
+    font-family: Open Sans, sans-serif;
+    color: white;
+    
+}
+
+header ul {
+    display: flex;
+    text-decoration: none;
+}
+
+header ul li {
+	list-style-type: none;
+    padding: 20px 50px 20px;
+    text-align: center;
+}
+
+section {
+    max-width: 30%;
+    margin: 0 auto;
+    display: flex;
+ 
+}
+
+
+
+p{
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+hr{
+
+    color: white;
+    border: 1px solid;
+}
+
+input[type="text"] {
+    max-width: 200px;
+    width: 60%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+
+  }
+
+  input[type="submit"] {
+    max-width: 80px;
+    width: 40%;
+    background-color: white;
+    color:#c43c4c;
+    border: round;
+  }
