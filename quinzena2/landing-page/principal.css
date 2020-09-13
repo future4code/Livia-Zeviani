@@ -16,6 +16,11 @@ header ul li {
 	list-style-type: none;
     padding: 20px 50px 20px;
     text-align: center;
+    
+}
+
+.a {
+    text-decoration: none;
 }
 
 section {
@@ -53,4 +58,11 @@ input[type="text"] {
     background-color: white;
     color:#c43c4c;
     border: round;
+  }
+
+/*SOBRE*/
+
+  .sobre {
+      background-color: white;
+      display: flex;
   }
