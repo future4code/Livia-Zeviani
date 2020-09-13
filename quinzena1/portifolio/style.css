@@ -1,0 +1,66 @@
+body{
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+  background-color: #ffffff;
+  color: #262424;
+  margin: 0;
+
+
+}
+
+
+h2{
+  color: #DF0041;
+  font-size: 40px;
+}
+
+redes{
+  display: inline-block;
+
+}
+
+hr{
+  width: 50%;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#262424;
+  border: 0 none;
+  margin-top: 30px;
+}
+
+a{
+  padding: 10px;
+}
+
+section{
+  max-width: 40%;
+  margin: 0 auto;
+   
+}
+
+.sobre{
+  background-color: #ffffff;
+  height: 100px;
+  max-width: 30%;
+  margin: 0 auto;
+  border: #262424;
+}
+
+.grid-container {
+  
+  grid-template-columns: auto auto auto;
+  background-color: white;
+  padding: 0px;
+  justify-content: center;
+  display: grid;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 0px solid;
+  padding: 5px;
+  font-size: 10px;
+  text-align: center;
+  display: inline-block;
+}
