@@ -7,23 +7,23 @@
     <link href="principal.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-        <header>
-            <ul>
-                <li><a href=#sobre>SOBRE</a></li>
-                <li><a href=#produtos>PRODUTOS</a></li>
-                <li><a href=#contato>CONTATO</a></li>
-                <li><a href=#trabalhe>TRABALHE CONOSCO</a></li>
-            </ul>
-        </header>
+    <header>
+        <ul>
+          <li><a href="#sobre">SOBRE</a></li>
+          <li><a href="#parceiros">PARCEIROS</a></li>
+          <li><a href="#contato">CONTATO</a></li>                
+        </ul>
+    </header>
     
-        <section>
-            <img src="Log4.png" width=80% height=80% alt="logo da Log4">
-        </section>
-        <p>Transparência e agilidade a favor do cliente</p>
-        <hr>
-
-        <p>Quer receber nossa newsletter? Deixa seu e-mail!</p>
+        <section class = "principal">
+          <img class="logo" src="Log4.png"  alt="logo da Log4">
+          <p>Transparência e agilidade a favor do cliente</p>
+          
+          
+      </section>
         <section class="footer">
+          <hr>
+          <p>Quer receber nossa newsletter? Deixa seu e-mail!</p>
             <form name="contato" method="POST">
               <input type="text" name="email" placeholder="E-mail">
               <input type="submit" value="ENVIAR" onclick="return validar()">
@@ -53,8 +53,40 @@
               };
             }
             </script> 
-            <div class="sobre">
-                    <h2>SOBRE</h2>
-            </div>
+        </section>
+            <section class="sobre" id="sobre">
+                    <h3>SOBRE</h3>
+                    <p>Somos uma empresa especializada em logística.</p>
+                    <p>Priorizamos a agilidade, segurança e transparência.</p>
+                    <p>Seu pedido é entregue dentro do prazo de 24 horas de forma segura! Tanto para você quanto para os nossos entregadores. Confira os nossos parceiros comerciais e ganhe descontos!</p>
+                    <div class="grid-containera">
+                      <div class="grid-item"><img class="icone" border="0" alt="ícone caminhão de entrega" src="Group 1.png" ><h5>Faça seu pedido</h5></div>
+                      <div class="grid-item"><img class="icone" border="0" alt="24 horas" src="Group000.png" ><h5>Entrega em 24 horas</h5></div>
+                      <div class="grid-item"><img class="icone" border="0" alt="ícone caminhão de entrega" src="pequeno.png" ><h5>Entregas menores feitas com bike ou moto</h5></div>
+                    </div>
+            </section>
+            <section class="parceiros" id="parceiros">
+              <h3>PARCEIROS</h3>
+              <p>Nossos parceiros do mês:</p>
+              <div class="grid-containerb">
+                <div class="grid-item"><img class="iconeparceria" border="0" alt="" src="4comfort.png" ></div>
+
+            </section>
+            <section class="contato" id="contato">
+              <h3>CONTATO</h3>
+              
+              <div class="flex-containerc">
+                <div style="text-align: center;">
+                  <a href="https://www.facebook.com/" target="_blank">
+                  <img class="rede" border="0" alt="Facebook" src="facebook.png"></a>
+                </div>
+                <div style="text-align: center;">
+                  <a href="https://twitter.com/home" target="_blank">
+                  <img class="rede" border="0" alt="Twitter" src="twitter.png"></a>
+                </div>
+           </div>
+              
+
+            </section>
   </body>
 </html>    

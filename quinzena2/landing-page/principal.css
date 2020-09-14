@@ -1,47 +1,58 @@
 *{
     margin: auto;
     padding: auto;
-    background: #c43c4c;
-    font-family: Open Sans, sans-serif;
-    color: white;
+    font-family: Open Sans, sans-serif; 
     
 }
 
 header ul {
     display: flex;
     text-decoration: none;
+    background-color: #c43c4c;    
 }
 
 header ul li {
 	list-style-type: none;
-    padding: 20px 50px 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+section {
+   
+    display: flex;
+    flex-direction: column;
+    padding:0px;
+ 
+}
+
+.logo {
+    max-width: 30%;
+}
+
+.principal, .footer {
+    background-color: #c43c4c;
+    color: white;
+    padding: 20px;
+
+}
+
+p{
+    padding: 5px;
+    margin: auto;
     text-align: center;
     
 }
 
-.a {
-    text-decoration: none;
-}
-
-section {
-    max-width: 30%;
-    margin: 0 auto;
-    display: flex;
- 
-}
-
-
-
-p{
-    padding: 20px;
-    margin: auto;
-    text-align: center;
-}
-
 hr{
-
     color: white;
     border: 1px solid;
+    width: 100%;
+    
 }
 
 input[type="text"] {
@@ -60,9 +71,53 @@ input[type="text"] {
     border: round;
   }
 
-/*SOBRE*/
+/*SOBRE*/ /*CONTATO*/ /*PARCEIROS*/
 
-  .sobre {
+  .sobre , .contato , .parceiros {
       background-color: white;
-      display: flex;
+      max-width: 50%;
+      min-height: 20vh;
+      color: #c43c4c;
+      padding: 20px;
+      
   }
+
+  .icone{
+      width: 100%;
+  }
+
+  .grid-containera {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    
+  }
+
+  .grid-containerb {
+      display: grid;
+      grid-template-columns: auto;
+  }
+
+  .iconeparceria{
+      width:50%;
+  }
+
+
+  .grid-item {
+    padding: 20px;
+    text-align: center;
+
+  }
+
+  .flex-containerc {
+      display: flex;
+      width: 50%;
+      
+  }
+
+  .rede{
+      width: 30%;
+  }
+  
+
+ 
