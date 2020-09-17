@@ -31,6 +31,7 @@ let resultado = user > amigo;
 console.log("Sua idade é maior do que a do seu melhor amigo?", resultado );
 */
 
+/* 2 a) 
 const par = Number(prompt("Digite um número que seja par: "));
 
 let resultado = par%2 == 0;
@@ -38,3 +39,4 @@ let naoresultado = par%2 != 0;
 
 console.log("Ok, esse número é par", resultado);
 console.log("Vish, isso não é um número par", naoresultado);
+*/
