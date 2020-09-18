@@ -56,10 +56,14 @@ listaDeTarefas.splice(Number(prompt("índice:")), 1)
 console.log(listaDeTarefas);
 */
 
+/* 4
 const emailDoUsuario = String(prompt("Digite seu e-mail: "));
 const nomeDoUsuario = String(prompt("Digite seu nome: "));
 
 console.log("O e-mail " + emailDoUsuario + " " + "foi cadastrado com sucesso." + " " + "Seja bem-vinda(o), " + nomeDoUsuario);
+*/
+
+
 
 
 
