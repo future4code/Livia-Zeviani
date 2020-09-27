@@ -1,0 +1,121 @@
+*{
+    margin: auto;
+    padding: auto;
+    font-family: Open Sans, sans-serif; 
+    
+}
+
+header ul {
+    display: flex;
+    text-decoration: none;
+    background-color: #c43c4c;
+    padding-top: 10px;    
+}
+
+header ul li {
+	list-style-type: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+section {
+   
+    display: flex;
+    flex-direction: column;
+    padding:0px;
+ 
+}
+
+.logo {
+    max-width: 30%;
+}
+
+.principal, .footer {
+    background-color: #c43c4c;
+    color: white;
+    padding: 20px;
+
+}
+
+p{
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+hr{
+    color: white;
+    border: 1px solid;
+    width: 100%;
+    
+}
+
+input[type="text"] {
+    max-width: 200px;
+    width: 60%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+
+  }
+
+  input[type="submit"] {
+    max-width: 80px;
+    width: 40%;
+    background-color: white;
+    color:#c43c4c;
+    border: round;
+  }
+
+/*SOBRE*/ /*CONTATO*/ /*PARCEIROS*/
+
+  .sobre , .contato , .parceiros {
+      background-color: white;
+      max-width: 50%;
+      min-height: 20vh;
+      color: #c43c4c;
+      padding: 20px;
+      
+  }
+
+  .icone{
+      width: 100%;
+  }
+
+  .grid-containera {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    
+  }
+
+  .grid-containerb {
+      display: grid;
+      grid-template-columns: auto;
+  }
+
+  .iconeparceria{
+      width:50%;
+  }
+
+
+  .grid-item {
+    padding: 20px;
+    text-align: center;
+
+  }
+
+  .flex-containerc {
+      display: flex;
+      width: 50%;
+      
+  }
+
+  .rede{
+      width: 30%;
+  }
