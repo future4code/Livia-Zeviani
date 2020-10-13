@@ -133,4 +133,50 @@ let identificaNumero = (x, y) =>{
         }
         console.log(identificaNumero(1034,567))
 
+        //EXERCICIOS DE FUNÇÃO
+
+        function imprimeNumero () {
+            let numeros = [0, 9, 78, 66, 456, 32, 7, 11, 90]
+            let maiorNumero = 0
+            let menorNumero = Infinity
+                 let segundoMaior = 0
+            let segundoMenor = Infinity
         
+            for (let i = 0; i < numeros.length; i++){
+                 if (numeros[i] > maiorNumero){
+                    maiorNumero = numeros[i]
+                 }
+                if ((numeros[i] > segundoMaior) && (numeros[i]<maiorNumero)){
+                    segundoMaior = numeros[i]
+               }
+            }
+        
+            for (let i=0; i < numeros.length; i++){
+               if (numeros[i] < menorNumero) {
+                    menorNumero = numeros[i]
+                 }
+                 if ((numeros[i] < segundoMenor) && (numeros[i]>menorNumero)){
+                     segundoMenor = numeros[i]
+                 }
+            }
+             console.log(`O segundo maior número é: ${segundoMaior}`)
+             console.log(`O segundo menor número é: ${segundoMenor}`)
+         }
+        
+         imprimeNumero()
+
+         //2
+         let alerta = function(){
+            return alert("Hello Labenu!")
+         }
+            
+        alerta()
+
+
+        //EXERCICIOS DE OBJETOS
+
+
+
+
+
+        //EXERCICIOS FUNÇÕES DE ARRAY
