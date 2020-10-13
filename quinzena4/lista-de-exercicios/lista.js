@@ -180,3 +180,25 @@ let identificaNumero = (x, y) =>{
 
 
         //EXERCICIOS FUNÇÕES DE ARRAY
+         //1 a)
+        const pessoas = [{ nome: "Pedro", idade: 20 },
+ 	    { nome: "João", idade: 10 },
+        { nome: "Paula", idade: 12 },
+        { nome: "Artur", idade: 89 } ]
+ 	
+        const maioresDeIdade = pessoas.filter((maior, index, array) => {
+            if(maior.idade >= 20){
+            return true
+            }
+        })
+        console.log(maioresDeIdade)
+
+        //1 b)
+
+
+        const menorDeIdade = pessoas.filter((menor, index, array) => {
+             if(menor.idade < 20){
+                return true
+             }
+        })
+        console.log(menorDeIdade)
