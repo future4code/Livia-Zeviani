@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import CardGrande from './components/CardGrande/CardGrande';
-import ImagemButton from './components/ImagemButton/ImagemButton';
+import { CardGrande } from './components/CardGrande/CardGrande';
+import { ImagemButton } from './components/ImagemButton/ImagemButton';
+import { CardPequeno } from './components/CardPequeno/CardPequeno';
 
 function App() {
   return (
@@ -9,15 +10,26 @@ function App() {
       <div className="page-section-container">
         <h2>Dados pessoais</h2>
         <CardGrande 
-          imagem="https://uploads-ssl.webflow.com/5d640f4558306be99cf47a0e/5dd57846babb597b77c6bb1d_PerfilFuture4_cor.png" 
-          nome="Astrodev" 
-          descricao="Oi, eu sou o Astrodev. Sou o chefe dos alunos da Labenu. Adoro pedir e-mails na sexta-feira e esperar os alunos responderem só para responder com uma bronca e dar mais trabalho para eles."
+          imagem="https://media-exp1.licdn.com/dms/image/C4E03AQGQBszotHezPg/profile-displayphoto-shrink_200_200/0?e=1608768000&v=beta&t=90wNIvUKKIi2SU-n_1TuFuoeDFE2xeaZVXjMcccZ9Hw" 
+          nome="Lívia Zeviani" 
+          descricao="Olá, eu sou a Lívia! Sou formada em Biologia, com especialização em Design Instrucional e dev em formação!"
         />
         
         <ImagemButton 
           imagem="https://image.flaticon.com/icons/png/512/117/117472.png" 
-          texto="Ver mais"
+          texto="Veja mais"
         />
+      </div>
+
+<div className="page-section-container">
+        
+        <CardPequeno 
+          imagem="https://www.flaticon.com/svg/static/icons/svg/693/693834.svg" 
+          nome="E-mail" 
+          descricao="liviapavinizeviani@gmail.com"
+        />
+        
+      
       </div>
 
       <div className="page-section-container">
@@ -29,9 +41,9 @@ function App() {
         />
         
         <CardGrande 
-          imagem="https://imagens.canaltech.com.br/empresas/4418.400.jpg" 
-          nome="NASA" 
-          descricao="Apontando defeitos." 
+          imagem="https://uploads-ssl.webflow.com/599b12a8e4afd5000156d46f/59bdb126d0c4540001f990ac_asta-logo.png" 
+          nome="Rede Asta" 
+          descricao="Designer instrucional" 
         />
       </div>
 
@@ -51,4 +63,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

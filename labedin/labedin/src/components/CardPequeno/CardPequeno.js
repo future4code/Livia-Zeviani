@@ -1,15 +1,17 @@
 import React from 'react';
-import './CardGrande.css'
+import './CardPequeno.css'
 
-export function CardGrande(props) {
+export function CardPequeno(props){
     return (
-        <div className="bigcard-container">
-            <img src={ props.imagem } />
+    <div className="card-menor"> 
+     <img src={ props.imagem } />
             <div>
                 <h4>{ props.nome }</h4>
                 <p>{ props.descricao }</p>
             </div>
         </div>
     )
+    
 }
-export default CardGrande 
+
+export default CardPequeno

@@ -1,23 +1,24 @@
-.bigcard-container {
+.card-menor {
     display: flex;
     align-items: center;
     border: 1px dashed rgb(225, 163, 231);
     padding: 20px 10px;
     margin-bottom: 10px;
-    height: 200px;
+    height: 100px;
 }
 
-.bigcard-container > img {
+.card-menor > img {
     width: 70px;
     margin-right: 10px;
     border-radius: 50%;
 }
 
-.bigcard-container h4 {
+.card-menor p {
     margin-bottom: 15px;
+    font-style: bold;
 }
 
-.bigcard-container > div {
+.card-menor > div {
     display: flex;
     flex-direction: column;
     justify-items: flex-start;

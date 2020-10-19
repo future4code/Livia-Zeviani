@@ -1,7 +1,7 @@
 import React from 'react';
 import './ImagemButton.css'
 
-function ImagemButton(props) {
+export function ImagemButton(props) {
     return (
         <div className="image-button-container">
             <img src={ props.imagem }/>
@@ -11,4 +11,4 @@ function ImagemButton(props) {
     )
 }
 
-export default ImagemButton;
+export default ImagemButton

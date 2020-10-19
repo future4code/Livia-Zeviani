@@ -1,14 +1,16 @@
 .image-button-container {
     display: flex;
     align-items: center;
-    border: 1px solid black;
-    border-radius: 50px;
+    font-style: bold;
+    border: 1px solid rgb(225, 163, 231);
+    border-radius: 30px;
     width: 200px;
-    padding: 15px 30px;
+    padding: 10px 20px;
     margin: 10px auto;
 }
 
 .image-button-container > img {
-    width: 30px;
-    margin-right: 10px;
+    width: 20px;
+    margin: 10px;
+    align-items: center;
 }
