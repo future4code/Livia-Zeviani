@@ -1,0 +1,25 @@
+.card-menor {
+    display: flex;
+    align-items: center;
+    border: 1px dashed rgb(225, 163, 231);
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+.card-menor > img {
+    width: 70px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.card-menor p {
+    margin-bottom: 15px;
+    font-style: bold;
+}
+
+.card-menor > div {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+}
